@@ -74,6 +74,8 @@ recoginition.onresult = async (event) => {
   } else if (
     command.includes("aaj din kya hai") ||
     command.includes("Jarvis aaj din kya hai") ||
+    command.includes("Jarvis Aaj Kaun Sa din hai") ||
+    command.includes("Jarvis aaj kaun sa din hai") ||
     command.includes("What day is it today") ||
     command.includes("Jarvis what day is it today")
   ) {
